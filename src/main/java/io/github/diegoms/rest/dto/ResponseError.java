@@ -17,6 +17,9 @@ public class ResponseError {
     private String message;
     private Collection<FieldError> erros;
 
+    public ResponseError() {
+    }
+
     public ResponseError(String message, Collection<FieldError> erros) {
         this.message = message;
         this.erros = erros;
